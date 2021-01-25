@@ -15,10 +15,10 @@ namespace Starwars
         {
             while(true)
             {
-                while(true)
-                {
-                    planetsInput = LoadData();
+                planetsInput = LoadData();
 
+                while (true)
+                {
                     Console.WriteLine("Type task number");
                     string taskNumber = Console.ReadLine();
 
